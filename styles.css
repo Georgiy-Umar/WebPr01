@@ -1,0 +1,47 @@
+body {
+    background-color: #2aa590;
+}
+h1 {
+    color: #ecaa0e;
+    font-family: 'DS Arabic', sans-serif;
+}
+h2 {
+    color: #ff0015c6;
+}
+a {
+    color: #ff8c00fe;
+}
+a:hover {
+    color: #0eec49;
+}
+img {
+    width: 600px;
+    margin-left: 50px;
+}
+p {
+    font-size: 2rem;
+    color: #075183;
+}
+.big_size{
+    font-size: 3rem;
+}
+h3 {
+    color: beige;
+}
+ul {
+    color: #ecaa0e;
+    list-style-type: square;
+}
+@font-face {
+	font-family: 'DS Arabic';
+	src: url('fonts/ds_arabic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/ds_arabic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/ds_arabic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/ds_arabic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/ds_arabic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/ds_arabic.svg#ds_arabic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.wrapper{
+    width: 800px;
+    margin: auto;
+}

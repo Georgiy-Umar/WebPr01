@@ -1,1 +1,50 @@
-<a href="1"> 2 </a> <!-- а - значит якорь ancore .1 в кавычках  вводится адрес юрл ссылки, а 2 - это название ссылки куда будет кликать пользователь-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Pr02 My first page</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Vsem Privet</h1>
+        <h2>About my self</h2>
+        <p>
+            Здесь я буду рассказывать о своих достижениях в области изучения <b>HTML</b> и <b>CSS</b>.
+        </p>
+        <p>
+            Сложно ли учить <b>HTML</b>? Возможно.<br>
+            Но если приложить некоторые усилия, то <i><b>ничего сложного нет.</b></i>
+        </p>
+        <a href="https://ya.ru/" target="_blank">Ask for Yandex</a>
+        <hr> <!-- тег для линии внизу под блоком-->
+        <img src="https://cointorg.ru/sites/default/files/iran250rbo.jpg" alt="Bitcoin is the future">
+        <!--scr в кавычка указывается юрл ссылка на картинку, а в АЛЬТ указывается подпись или заголовок, который будет прироритетным в поиске и прочитан жкранным диктором что на картинке -->
+
+        <p class="big_size">
+            <!-- через атрибут class="" даем уникальное имя чтобы при редакции в ccs файле стиля текста в теге <р> был изменен только помеченный атрибутом текст, а не другие-->
+            Photo of the lion from absolutely link from PC<br>
+            <img src="new_img_folder/370691-4k-wallpaper.jpg" alt="Lions in the wild">
+        </p>
+        <p class="big_size">каринка с относительной ссылкой</p>
+        <h3>My skils:</h3>
+        <ul> <!-- ul - не нумерованные списки-->
+            <li>I like run</li>
+            <!-- чтобы автоматом выдать список с нужным количеством строк нужно ввести команду: "ul>li*3" -->
+            <li>I like be a strong</li>
+            <li>I can speak in Enlish</li>
+        </ul>
+        <h3>My dreams:</h3>
+        <ol> <!-- ol нумерованные списки-->
+            <li>I wanna go to travel</li>
+            <li>I dream for a sport car</li>
+            <li>I wanna sleep on the clouds</li>
+        </ol>
+    </div>
+</body>
+
+</html>
